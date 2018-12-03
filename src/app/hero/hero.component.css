@@ -1,0 +1,64 @@
+.intro-header {
+  height: unset !important;
+}
+.intro-2 {
+  background: url("https://media.istockphoto.com/videos/group-of-students-video-id462599622?s=640x640")no-repeat center center;
+  background-size: cover;
+}
+.view {
+  height: 100vh !important;
+}
+.btn .fa {
+  margin-left: 3px;
+}
+.top-nav-collapse {
+  background-color: #424f95 !important;
+}
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+.btn {
+  /* Positioning and sizing */
+  display: block;
+  width: 200px;
+
+  /* Padding and margins */
+  padding: 1em;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* Text styles */
+  color:white;
+  text-decoration: none;
+  font-size: 1.5em;
+
+  /* Border styles */
+  border: 3px solid white;
+  border-radius: 20px;
+}
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+      background: #424f95 !important;
+  }
+}
+h6 {
+  line-height: 1.7;
+}
+.rgba-gradient .full-bg-img {
+  background: linear-gradient(45deg, rgba(42, 27, 161, 0.6), rgba(29, 210, 177, 0.6) 100%);
+}
+@media (max-width: 450px) {
+  .margins {
+      margin-right: 1rem;
+      margin-left: 1rem;
+  }
+}
+@media (max-width: 740px) {
+  .full-height,
+  .full-height body,
+  .full-height header,
+  .full-height header .view {
+      height: 1020px;
+  }
+}
